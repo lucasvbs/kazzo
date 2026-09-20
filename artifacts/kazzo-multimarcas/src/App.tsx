@@ -125,7 +125,7 @@ function Home() {
 
   return (
     <main className="min-h-[100dvh] overflow-hidden bg-[#f5f1e9]">
-      <header className="absolute inset-x-0 top-0 z-40">
+      <header className="fixed inset-x-0 top-0 z-40 bg-[#232323]/90 shadow-[0_8px_24px_rgba(0,0,0,.12)] backdrop-blur-md">
         <div className="container-kazzo flex h-[82px] items-center justify-between border-b border-white/20">
           <a href="#top" aria-label="Kazzo Multimarcas, voltar ao início" data-testid="link-logo">
             <img src={logo} alt="Kazzo Multimarcas — For Man and Woman" className="h-[44px] w-[130px] object-cover object-center mix-blend-screen md:h-[50px] md:w-[152px]" />
