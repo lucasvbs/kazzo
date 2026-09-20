@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Kazzo Multimarcas"
+description = "Landing page premium da Kazzo Multimarcas, loja de moda masculina e feminina no Guará, com curadoria de peças, prova social e atendimento via WhatsApp."
+version = "1.0.0"
+id = "artifacts/kazzo-multimarcas"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24526
+
+[services.development]
+run = "pnpm --filter @workspace/kazzo-multimarcas run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/kazzo-multimarcas", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/kazzo-multimarcas/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24526"
+BASE_PATH = "/"
