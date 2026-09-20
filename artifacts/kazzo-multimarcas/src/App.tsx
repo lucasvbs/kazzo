@@ -23,13 +23,13 @@ import logo from '@assets/logo_1789862324726.jpg';
 import compactLogo from '@assets/logo_versao02_remover_fundo_branco_1789862324720.jpg';
 import storefront from '@assets/Frente_loja_1789862324719.jpg';
 import storefrontTwo from '@assets/Frente_02_1789862324718.jpg';
-import lookOne from '@assets/foto_01_limpa.png';
-import lookTwo from '@assets/foto_02_limpa.png';
-import lookThree from '@assets/foto_03_limpa.png';
-import lookFour from '@assets/foto_04_limpa.png';
-import lookFive from '@assets/foto_05_limpa.png';
-import lookSix from '@assets/foto_06_limpa.png';
-import lookSeven from '@assets/foto_07_limpa.png';
+import lookOne from '@assets/foto_01_sem_interface.jpg';
+import lookTwo from '@assets/foto_02_sem_interface.jpg';
+import lookThree from '@assets/foto_03_sem_interface.jpg';
+import lookFour from '@assets/foto_04_sem_interface.jpg';
+import lookFive from '@assets/foto_05_sem_interface.jpg';
+import lookSix from '@assets/foto_06_sem_interface.jpg';
+import lookSeven from '@assets/foto_07_sem_interface.jpg';
 
 const queryClient = new QueryClient();
 
